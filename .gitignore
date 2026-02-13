@@ -1,8 +1,8 @@
 # Dependencies
 node_modules/
-package-lock.json
-yarn.lock
-pnpm-lock.yaml
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
 # Environment variables
 .env
@@ -10,54 +10,46 @@ pnpm-lock.yaml
 .env.development.local
 .env.test.local
 .env.production.local
-backend/.env
-frontend/.env
 
 # Build outputs
 dist/
 build/
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+*.tgz
+*.tar.gz
 
-# IDE
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# nyc test coverage
+.nyc_output
+
+# Logs
+logs
+*.log
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files
 .vscode/
 .idea/
 *.swp
 *.swo
 *~
-*.sublime-project
-*.sublime-workspace
 
-# OS
-.DS_Store
-Thumbs.db
-ehthumbs.db
-Desktop.ini
-
-# Testing
-coverage/
-.nyc_output/
-
-# Misc
-*.pem
-*.key
-.cache/
-.temp/
-.tmp/
-
-# Database
-*.db
-*.sqlite
-*.sqlite3
-
-# Logs
-logs/
-*.log
-
-# Runtime
-pids/
-*.pid
-*.seed
-*.pid.lock
+# Temporary folders
+tmp/
+temp/
