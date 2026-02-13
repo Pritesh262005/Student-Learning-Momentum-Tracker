@@ -1,0 +1,279 @@
+# SIMPLE WIREFRAME STRUCTURE - COPY READY
+
+## SLIDE 1: LOGIN PAGE
+| Logo | Student Learning Momentum Tracker |
+|------|-----------------------------------|
+
+Hero Section
+"Track Your Learning Journey, Achieve Your Goals"
+
+[ Email/Password Login ] [ Google Login ]
+[ Register New Account ]
+
+Features:
+- Secure Authentication
+- Google OAuth Integration
+- Remember Me Option
+
+
+## SLIDE 2: DASHBOARD PAGE
+| Logo | Dashboard | Study Sessions | Goals | Assignments | Notifications | Profile |
+|------|-----------|----------------|-------|-------------|---------------|---------|
+
+Welcome back, John! 👋
+
+Stats Cards Section
+| Total Hours | Current Streak | Momentum Score | Active Goals |
+|-------------|----------------|----------------|--------------|
+| 127.5 hrs   | 7 days 🔥      | 78/100 ↗      | 5 goals      |
+
+Momentum Score Section
+| Circular Progress: 78/100 |
+| Trend: Improving (+12%)   |
+| Suggestions: Keep it up!  |
+
+Charts Section
+| Subject Distribution (Pie Chart) | Weekly Study Trend (Line Chart) |
+|----------------------------------|----------------------------------|
+| Math: 40%, Physics: 30%          | Mon-Sun activity graph           |
+
+Quick Actions
+| Active Goals Progress | Upcoming Deadlines |
+|-----------------------|--------------------|
+| Goal 1: 60% complete  | Assignment 1: Tomorrow |
+| Goal 2: 25% complete  | Assignment 2: 3 days   |
+
+
+## SLIDE 3: STUDY SESSIONS PAGE
+| Logo | Dashboard | Study Sessions | Goals | Assignments | Notifications | Profile |
+|------|-----------|----------------|-------|-------------|---------------|---------|
+
+Study Sessions Management
+[ + Add New Session ] [ Filter by Subject ] [ Search ]
+
+Session List
+| Subject      | Duration | Date       | Notes                    | Actions      |
+|--------------|----------|------------|--------------------------|--------------|
+| Mathematics  | 2h 30m   | Today      | Calculus practice        | [Edit][Delete]|
+| Physics      | 1h 45m   | Yesterday  | Lab work                 | [Edit][Delete]|
+| Chemistry    | 3h 15m   | 2 days ago | Organic chemistry        | [Edit][Delete]|
+
+Summary
+Total Hours: 127.5 | Current Streak: 7 days 🔥
+
+
+## SLIDE 4: GOALS PAGE
+| Logo | Dashboard | Study Sessions | Goals | Assignments | Notifications | Profile |
+|------|-----------|----------------|-------|-------------|---------------|---------|
+
+Goals Management
+[ Active ] [ Completed ] [ + Add New Goal ]
+
+Active Goals
+| Goal Title                    | Type       | Progress | Deadline    | Actions      |
+|-------------------------------|------------|----------|-------------|--------------|
+| Complete 50 hours of study    | Short-term | 60%      | Dec 31      | [Edit][Delete]|
+| Master Calculus               | Long-term  | 25%      | Jun 30      | [Edit][Delete]|
+| Improve Physics Grade         | Short-term | 75%      | Mar 15      | [Edit][Delete]|
+
+Progress Bars
+Goal 1: ████████████░░░░░░░░ 60% (30/50 hours)
+Goal 2: █████░░░░░░░░░░░░░░░ 25% (25/100 hours)
+
+
+## SLIDE 5: ASSIGNMENTS PAGE
+| Logo | Dashboard | Study Sessions | Goals | Assignments | Notifications | Profile |
+|------|-----------|----------------|-------|-------------|---------------|---------|
+
+Assignments Management
+[ Pending ] [ Completed ] [ + Add Assignment ]
+
+Assignment List
+| Title                  | Subject     | Deadline   | Score      | Status    | Actions      |
+|------------------------|-------------|------------|------------|-----------|--------------|
+| Calculus Assignment 1  | Mathematics | Tomorrow   | 85/100     | Completed | [Edit][Delete]|
+| Physics Lab Report     | Physics     | 3 days     | Not graded | Pending   | [Edit][Delete]|
+| Chemistry Paper        | Chemistry   | 1 week     | 92/100     | Completed | [Edit][Delete]|
+
+Performance Summary
+Average Score: 88.5% | Completion Rate: 67%
+
+
+## SLIDE 6: NOTIFICATIONS PAGE
+| Logo | Dashboard | Study Sessions | Goals | Assignments | Notifications | Profile |
+|------|-----------|----------------|-------|-------------|---------------|---------|
+
+Notification Center
+[ Mark All as Read ] [ Settings ]
+
+Notifications List
+| Type              | Message                                    | Time        | Actions   |
+|-------------------|--------------------------------------------|-------------|-----------|
+| 🔔 Study Reminder | Don't forget to log your study today!      | 2 hours ago | [Dismiss] |
+| ⏰ Deadline       | Physics Lab Report due tomorrow            | 5 hours ago | [Dismiss] |
+| 🎉 Achievement    | Goal completed: 50 hours study             | Yesterday   | [Dismiss] |
+| 📊 Update         | Momentum score increased to 78             | 2 days ago  | [Dismiss] |
+
+
+## SLIDE 7: ADMIN PANEL
+| Logo | Dashboard | Study Sessions | Goals | Assignments | Admin Panel | Profile |
+|------|-----------|----------------|-------|-------------|-------------|---------|
+
+Admin Dashboard
+
+System Analytics
+| Total Users | Total Sessions | Total Goals | Total Study Hours |
+|-------------|----------------|-------------|-------------------|
+| 150 (+12%)  | 5,000 (+25%)   | 300 (+8%)   | 3,500 (+15%)      |
+
+User Management
+[ Search Users ] [ Filter by Role ] [ Export CSV ]
+
+User List
+| Name        | Email              | Role    | Status  | Actions                    |
+|-------------|--------------------|---------|---------|----------------------------|
+| John Doe    | john@email.com     | Student | Active  | [Block][Delete][Edit Role] |
+| Jane Smith  | jane@email.com     | Teacher | Active  | [Block][Delete][Edit Role] |
+| Bob Wilson  | bob@email.com      | Student | Blocked | [Unblock][Delete]          |
+| Admin User  | admin@email.com    | Admin   | Active  | [View Details]             |
+
+[ Previous ] Page 1 of 10 [ Next ]
+
+
+## SLIDE 8: MOMENTUM SCORE BREAKDOWN
+Momentum Score Calculation
+
+| Component                  | Weight | Score | Contribution |
+|----------------------------|--------|-------|--------------|
+| Consistency Factor         | 30%    | 80    | 24 points    |
+| Study Time Trend           | 30%    | 75    | 23 points    |
+| Goal Completion Rate       | 20%    | 80    | 16 points    |
+| Assignment Performance     | 20%    | 75    | 15 points    |
+| **TOTAL MOMENTUM SCORE**   | 100%   | **78**| **78/100**   |
+
+Score Interpretation
+| Range    | Status              | Color  |
+|----------|---------------------|--------|
+| 80-100   | Excellent           | Green  |
+| 60-79    | Good                | Yellow |
+| 0-59     | Needs Improvement   | Red    |
+
+
+## SLIDE 9: TECH STACK
+Technology Stack
+
+Frontend
+| Technology    | Purpose              |
+|---------------|----------------------|
+| React 18      | UI Framework         |
+| Vite          | Build Tool           |
+| Tailwind CSS  | Styling              |
+| Recharts      | Data Visualization   |
+| Axios         | HTTP Client          |
+| React Router  | Navigation           |
+
+Backend
+| Technology    | Purpose              |
+|---------------|----------------------|
+| Node.js       | Runtime              |
+| Express.js    | Web Framework        |
+| JWT           | Authentication       |
+| Passport.js   | OAuth Integration    |
+| bcrypt        | Password Hashing     |
+| Helmet        | Security             |
+
+Database & Auth
+| Technology    | Purpose              |
+|---------------|----------------------|
+| MongoDB       | Database             |
+| Mongoose      | ODM                  |
+| Google OAuth  | Social Login         |
+| JWT Tokens    | Session Management   |
+
+
+## SLIDE 10: SYSTEM ARCHITECTURE
+System Architecture Flow
+
+| Layer          | Component           | Port/Details        |
+|----------------|---------------------|---------------------|
+| Frontend       | React Client        | Port 5173           |
+| ↓              | REST API Calls      | HTTP/HTTPS          |
+| Backend        | Express Server      | Port 5000           |
+| ↓              | API Routes          | 32 Endpoints        |
+| Middleware     | Auth, Validation    | JWT, Rate Limiting  |
+| ↓              | Business Logic      | Services            |
+| Database       | MongoDB Atlas       | Cloud Database      |
+| Collections    | Users, Sessions     | 6 Models            |
+
+
+## SLIDE 11: DATABASE SCHEMA
+Database Models
+
+| Model          | Key Fields                              | Relationships        |
+|----------------|-----------------------------------------|----------------------|
+| User           | email, password, role, refreshToken     | → Sessions, Goals    |
+| StudySession   | userId, subjectId, duration, date       | ← User, Subject      |
+| Subject        | userId, name, color, totalHours         | → Sessions           |
+| Goal           | userId, title, targetValue, progress    | ← User               |
+| Assignment     | userId, subjectId, score, deadline      | ← User, Subject      |
+| Notification   | userId, type, message, isRead           | ← User               |
+
+
+## SLIDE 12: KEY FEATURES
+Core Features Overview
+
+| Feature              | Description                           | Benefits              |
+|----------------------|---------------------------------------|-----------------------|
+| Study Tracking       | Log sessions with subject & duration  | Build study habits    |
+| Momentum Score       | 0-100 score based on 4 factors        | Track progress        |
+| Goal Management      | Set & track short/long-term goals     | Stay motivated        |
+| Assignment Tracking  | Manage deadlines & scores             | Improve performance   |
+| Smart Notifications  | Automated reminders & alerts          | Never miss deadlines  |
+| Analytics Dashboard  | Visual charts & insights              | Data-driven decisions |
+| Admin Panel          | User & system management              | Full control          |
+| Role-based Access    | Student, Teacher, Admin roles         | Secure access         |
+
+
+## SLIDE 13: SECURITY FEATURES
+Security Implementation
+
+| Feature                | Implementation                    | Purpose                |
+|------------------------|-----------------------------------|------------------------|
+| Password Hashing       | bcrypt (12 rounds)                | Secure storage         |
+| JWT Authentication     | Access (15min) + Refresh (7days)  | Session management     |
+| HTTP-only Cookies      | Secure, SameSite                  | XSS protection         |
+| Rate Limiting          | 100 req/15min                     | DDoS prevention        |
+| Input Validation       | express-validator                 | Injection prevention   |
+| Security Headers       | Helmet.js                         | Multiple protections   |
+| CORS Configuration     | Whitelist origins                 | Cross-origin security  |
+| Role-based Access      | Middleware checks                 | Authorization          |
+
+
+## SLIDE 14: API ENDPOINTS
+REST API Structure
+
+| Category       | Endpoints | Examples                              |
+|----------------|-----------|---------------------------------------|
+| Authentication | 6         | POST /auth/register, /auth/login      |
+| Study Sessions | 6         | GET /study-sessions, POST /sessions   |
+| Goals          | 4         | GET /goals, PUT /goals/:id            |
+| Assignments    | 5         | GET /assignments, DELETE /assign/:id  |
+| Dashboard      | 2         | GET /dashboard, GET /dashboard/analytics |
+| Notifications  | 4         | GET /notifications, PUT /notify/:id/read |
+| Admin          | 5         | GET /admin/users, DELETE /admin/users/:id |
+| **TOTAL**      | **32**    | All RESTful with proper HTTP methods |
+
+
+## SLIDE 15: PROJECT METRICS
+Project Statistics
+
+| Metric                  | Count      | Details                    |
+|-------------------------|------------|----------------------------|
+| Lines of Code           | 8,000+     | Backend + Frontend         |
+| Files Created           | 60+        | Organized structure        |
+| Features Implemented    | 150+       | Fully functional           |
+| API Endpoints           | 32         | RESTful design             |
+| React Components        | 25+        | Reusable & modular         |
+| Database Models         | 6          | Normalized schema          |
+| Documentation Lines     | 6,000+     | Comprehensive guides       |
+| Test Cases              | 200+       | Manual testing checklist   |
