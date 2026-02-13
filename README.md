@@ -61,8 +61,8 @@ Momentum Score =
 
 ### 1. Clone the repository
 ```bash
-git clone <repository-url>
-cd student-momentum-tracker
+git clone https://github.com/Pritesh262005/Student-Learning-Momentum-Tracker.git
+cd Student-Learning-Momentum-Tracker
 ```
 
 ### 2. Backend Setup
